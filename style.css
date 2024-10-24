@@ -1,0 +1,35 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.table {
+    margin-top: 20px;
+}
+
+td {
+    height: 60px;
+    text-align: center;
+    cursor: pointer;
+}
+
+td.today {
+    border: 2px solid red;
+    background-color: #e9ecef;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.modal-body {
+    background-color: white;
+}
+.event-day {
+    background-color: #d1e7dd; /* Açık yeşil arka plan rengi */
+    cursor: pointer; /* İşaretçi değişir */
+}
